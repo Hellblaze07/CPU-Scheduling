@@ -9,7 +9,7 @@ export default function DocsPage() {
       <div className="mb-12">
         <h1 className="text-4xl font-extrabold mb-4 tracking-tight">Documentation</h1>
         <p className="text-muted-foreground text-lg max-w-3xl">
-          Everything you need to understand, run, and extend SchedX.
+          Everything you need to understand, run, and extend ThreadFlow.
         </p>
       </div>
 
@@ -36,7 +36,7 @@ export default function DocsPage() {
           <TabsContent value="getting-started" className="space-y-6 mt-0">
             <h2 className="text-3xl font-bold mb-6">Getting Started</h2>
             <div className="prose prose-invert max-w-none">
-              <p>SchedX requires both Node.js (v18+) and a C compiler (GCC or Clang) installed on your system.</p>
+              <p>ThreadFlow requires both Node.js (v18+) and a C compiler (GCC or Clang) installed on your system.</p>
               
               <h3 className="text-xl font-semibold mt-8 mb-4 text-primary">1. Clone & Build the C Engine</h3>
               <pre className="bg-black p-4 rounded-lg overflow-x-auto text-sm border">
@@ -188,10 +188,10 @@ export default function DocsPage() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-xl font-bold mb-3 text-primary">Docker Deployment</h3>
-                <p className="text-muted-foreground mb-4">SchedX uses a multi-stage Dockerfile to compile the C binary in an Alpine Linux container, followed by installing Node.js dependencies.</p>
+                <p className="text-muted-foreground mb-4">ThreadFlow uses a multi-stage Dockerfile to compile the C binary in an Alpine Linux container, followed by installing Node.js dependencies.</p>
                 <pre className="bg-black p-4 rounded-lg overflow-x-auto text-sm border text-green-400">
-                  docker build -t schedx .{'\n'}
-                  docker run -p 3001:3001 schedx
+                  docker build -t threadflow .{'\n'}
+                  docker run -p 3001:3001 threadflow
                 </pre>
               </div>
 

@@ -1,5 +1,5 @@
 # Note: This Dockerfile must be built from the root directory of the project.
-# Command: docker build -t schedx-backend -f backend/Dockerfile .
+# Command: docker build -t threadflow-backend -f backend/Dockerfile .
 
 # Build stage for C Engine
 FROM debian:bullseye-slim AS c-builder

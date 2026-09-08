@@ -45,7 +45,7 @@ export const SimulationPlayback = ({ result, processes }: Props) => {
     const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(result, null, 2));
     const downloadAnchorNode = document.createElement('a');
     downloadAnchorNode.setAttribute("href", dataStr);
-    downloadAnchorNode.setAttribute("download", `schedx-simulation-${result.simulation.algorithm}.json`);
+    downloadAnchorNode.setAttribute("download", `threadflow-simulation-${result.simulation.algorithm}.json`);
     document.body.appendChild(downloadAnchorNode); // required for firefox
     downloadAnchorNode.click();
     downloadAnchorNode.remove();
@@ -77,7 +77,7 @@ export const SimulationPlayback = ({ result, processes }: Props) => {
     const csvContent = "data:text/csv;charset=utf-8," + headers.join(',') + "\n" + rows.join('\n');
     const downloadAnchorNode = document.createElement('a');
     downloadAnchorNode.setAttribute("href", encodeURI(csvContent));
-    downloadAnchorNode.setAttribute("download", `schedx-metrics-${result.simulation.algorithm}.csv`);
+    downloadAnchorNode.setAttribute("download", `threadflow-metrics-${result.simulation.algorithm}.csv`);
     document.body.appendChild(downloadAnchorNode);
     downloadAnchorNode.click();
     downloadAnchorNode.remove();

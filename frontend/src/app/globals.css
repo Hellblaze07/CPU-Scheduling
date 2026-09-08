@@ -90,7 +90,7 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 
-  /* SchedX Semantic Tokens - Light */
+  /* ThreadFlow Semantic Tokens - Light */
   --process-rt: oklch(0.627 0.265 29.234); /* Red/Orange */
   --process-int: oklch(0.648 0.17 172.934); /* Cyan/Teal */
   --process-batch: oklch(0.546 0.245 262.881); /* Blue */
@@ -134,7 +134,7 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
 
-  /* SchedX Semantic Tokens - Dark */
+  /* ThreadFlow Semantic Tokens - Dark */
   --process-rt: oklch(0.627 0.265 29.234); /* Red/Orange */
   --process-int: oklch(0.648 0.17 172.934); /* Cyan/Teal */
   --process-batch: oklch(0.546 0.245 262.881); /* Blue */

@@ -12,7 +12,7 @@ export default function AlgorithmsPage() {
       <div className="mb-12">
         <h1 className="text-3xl font-bold mb-4">Scheduling Algorithms</h1>
         <p className="text-muted-foreground text-lg max-w-3xl">
-          SchedX implements five CPU scheduling algorithms. Learn how each one makes dispatch decisions, 
+          ThreadFlow implements five CPU scheduling algorithms. Learn how each one makes dispatch decisions, 
           and dive deep into the architecture of the custom Adaptive Hybrid scheduler.
         </p>
       </div>

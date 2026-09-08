@@ -1,6 +1,6 @@
-# 📄 SchedX: Adaptive CPU Scheduler Platform
+# 📄 ThreadFlow: Adaptive CPU Scheduler Platform
 
-SchedX is an enterprise-grade educational web application designed to visualize and simulate Operating System CPU scheduling algorithms. It demonstrates an end-to-end full-stack pipeline that transforms low-level C systems programming into highly interactive, real-time React visualizations using a robust Node.js API bridge.
+ThreadFlow is an enterprise-grade educational web application designed to visualize and simulate Operating System CPU scheduling algorithms. It demonstrates an end-to-end full-stack pipeline that transforms low-level C systems programming into highly interactive, real-time React visualizations using a robust Node.js API bridge.
 
 ## 🚀 Key Features
 

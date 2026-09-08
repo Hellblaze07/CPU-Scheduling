@@ -9,7 +9,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SchedX | Adaptive CPU Scheduler",
+  title: "ThreadFlow | Adaptive CPU Scheduler",
   description: "An interactive OS CPU scheduling simulator",
 };
 

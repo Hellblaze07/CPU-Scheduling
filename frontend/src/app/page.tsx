@@ -44,7 +44,7 @@ export default function Home() {
             
             <motion.div variants={fadeUp} className="space-y-4">
               <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tighter text-zinc-100">
-                Sched<span className="text-emerald-500">X</span>
+                Thread<span className="text-emerald-500">Flow</span>
               </h1>
               <p className="text-2xl font-medium text-zinc-400">
                 Native CPU Scheduling.
@@ -53,7 +53,7 @@ export default function Home() {
             </motion.div>
 
             <motion.p variants={fadeUp} className="text-lg text-zinc-500 leading-relaxed max-w-lg">
-              Watch how modern operating systems allocate CPU time. SchedX bridges classic CS theory and actual low-level C programming through an interactive, deterministic simulation engine.
+              Watch how modern operating systems allocate CPU time. ThreadFlow bridges classic CS theory and actual low-level C programming through an interactive, deterministic simulation engine.
             </motion.p>
 
             <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 pt-4">
